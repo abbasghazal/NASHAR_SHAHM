@@ -1,7 +1,7 @@
 {
     "name": "𝐒𝐇𝐀𝐇𝐌",
     "description": "اهلا بكم في تنصيب النشر التلقائي الخاص بسورس شهم",
-    "logo": "",
+    "logo": "https://telegra.ph/file/f0ce96a43fb7c665cf06e.jpg",
     "stack": "container",
     "repository": "https://t.me/jepthon",
     "keywords": ["python", "chatbot", "telegrambot"],
