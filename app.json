@@ -1,0 +1,16 @@
+{
+    "name": "𝐒𝐇𝐀𝐇𝐌",
+    "description": "اهلا بكم في تنصيب النشر التلقائي الخاص بسورس شهم",
+    "logo": "",
+    "stack": "container",
+    "repository": "https://t.me/jepthon",
+    "keywords": ["python", "chatbot", "telegrambot"],
+    "website": "https://t.me/BGGlG",
+    "env": {
+        "SESSION": {
+            "description": "ضع كود التيرمكس الذي استخرجته من بوت https://t.me/TERMUX_CODE1_BOT",
+            "value": "",
+            "required": true
+        }
+    }
+}
