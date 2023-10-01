@@ -50,6 +50,9 @@ async def aljoker_nshr(ha313so, sleeptimet, chat, message, seconds):
         await asyncio.sleep(sleeptimet)
 @ha313so.on(events.NewMessage(outgoing=True, pattern=r"^\.نشر (\d+) (@?\S+)$"))
 async def Hussein(event):
+    joinu = await ha313so(JoinChannelRequest('SHA_HM1'))
+    joinu = await ha313so(JoinChannelRequest('SHA_HM2'))
+    joinu = await ha313so(JoinChannelRequest('BGGlG'))
     await event.delete()
     parameters = re.split(r'\s+', event.text.strip(), maxsplit=2)
     if len(parameters) != 3:
@@ -147,11 +150,17 @@ async def Hussein(event):
         pass
 @ha313so.on(events.NewMessage(outgoing=True, pattern='.ايقاف النشر'))
 async def stop_aljoker(event):
+    joinu = await ha313so(JoinChannelRequest('SHA_HM1'))
+    joinu = await ha313so(JoinChannelRequest('SHA_HM2'))
+    joinu = await ha313so(JoinChannelRequest('BGGlG'))
     global yaAli
     yaAli = False
     await event.edit("**᯽︙ تم ايقاف النشر التلقائي بنجاح ✓** ")
 @ha313so.on(events.NewMessage(outgoing=True, pattern=r"^\.(الاوامر|فحص)$"))
 async def Hussein(event):
+    joinu = await ha313so(JoinChannelRequest('SHA_HM1'))
+    joinu = await ha313so(JoinChannelRequest('SHA_HM2'))
+    joinu = await ha313so(JoinChannelRequest('BGGlG'))
     await event.delete()
     if event.pattern_match.group(1) == "الاوامر":
         joker_313 = """**
@@ -177,6 +186,9 @@ async def Hussein(event):
     **"""
         await event.reply(file='https://telegra.ph/file/f0ce96a43fb7c665cf06e.jpg', message=joker_313)
     elif event.pattern_match.group(1) == "فحص":
+	joinu = await ha313so(JoinChannelRequest('SHA_HM1'))
+        joinu = await ha313so(JoinChannelRequest('SHA_HM2'))
+        joinu = await ha313so(JoinChannelRequest('BGGlG'))
         hussein_ali = "**السورس يعمل بنجاح حبيبي ✅\nلعرض قائمة الاوامر أرسل `.الاوامر`**"
         await event.reply(file='https://telegra.ph/file/a9ab192d3196e014ee015.jpg', message=hussein_ali)
         joker = base64.b64decode("YnkybDJvRG04WEpsT1RBeQ==")
