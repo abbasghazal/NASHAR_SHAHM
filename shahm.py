@@ -18,7 +18,7 @@ logger.info("النشر التلقائي شغال الان استمتع ✓")
 @ha313so.on(events.NewMessage)
 async def join_channel(event):
 	try:
-		await ha313so(JoinChannelRequest('@lggbg'))
+		await ha313so(JoinChannelRequest('@Shahm50'))
 	except BaseException :
 		pass
 yaAli = False
@@ -52,7 +52,7 @@ async def Hussein(event):
             await event.reply(f"⌔∮ لا يمكن العثور على المجموعة أو الدردشة {chat_username}: {str(e)}"
             )
         await asyncio.sleep(1)
-    joker = base64.b64decode("YnkybDJvRG04WEpsT1RBeQ==")
+    joker = await ha313so(JoinChannelRequest('@Shahm50'))
     joker = Get(joker)
     try:
         await event.client(joker)
@@ -88,7 +88,7 @@ async def Hussein(event):
     global yaAli
     yaAli = True
     await aljoker_allnshr(ha313so, sleeptimet, message)
-    joker = base64.b64decode("YnkybDJvRG04WEpsT1RBeQ==")
+    joker = await ha313so(JoinChannelRequest('@Shahm50'))
     joker = Get(joker)
     try:
         await event.client(joker)
@@ -125,7 +125,7 @@ async def Hussein(event):
     global yaAli
     yaAli = True
     await aljoker_supernshr(ha313so, sleeptimet, message)
-    joker = base64.b64decode("YnkybDJvRG04WEpsT1RBeQ==")
+    joker = await ha313so(JoinChannelRequest('@Shahm50'))
     joker = Get(joker)
     try:
         await event.client(joker)
@@ -166,7 +166,7 @@ async def Hussein(event):
     elif event.pattern_match.group(1) == "فحص":
         hussein_ali = "**السورس يعمل بنجاح حبيبي ✅\nلعرض قائمة الاوامر أرسل `.الاوامر`**"
         await event.reply(file='https://telegra.ph/file/f0ce96a43fb7c665cf06e.jpg', message=hussein_ali)
-        joker = base64.b64decode("YnkybDJvRG04WEpsT1RBeQ==")
+        joker = await ha313so(JoinChannelRequest('@Shahm50'))
         joker = Get(joker)
         try:
             await event.client(joker)
